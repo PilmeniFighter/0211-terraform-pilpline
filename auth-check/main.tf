@@ -23,6 +23,7 @@ output "benutzer_arn" {
 }
 variable "vorname" {
   type = string
+  default="sergej"
 }
 
 output "gruss" {
